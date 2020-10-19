@@ -1,0 +1,83 @@
+.movie {
+  background: #fffffe;
+  color: #121629;
+  padding: 2rem;
+}
+.movie header {
+  display: grid;
+  grid-template-columns: auto auto 1fr 15px;
+  align-items: baseline;
+  gap: 10px;
+}
+.movie header p {
+  justify-self: right;
+}
+.movies-container {
+  display: grid;
+  grid-gap: 20px;
+  width: 80vw;
+}
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400|Open+Sans:400");
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+body {
+  background-color: #232946;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+}
+
+p {
+  margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 1.3rem 0 1.05rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #fffffe;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+  color: #b8c1ec;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+small,
+.text_small {
+  font-size: 0.75em;
+}
+
+div#root {
+  display: grid;
+  padding: 2rem;
+  place-items: center center;
+}
+
+/*# sourceMappingURL=/ghibli-react.e31bb0bc.css.map */

@@ -1,0 +1,14 @@
+.movie {
+	background: #fffffe;
+	color: #121629;
+	padding: 2rem;
+	header {
+		display: grid;
+		grid-template-columns: auto auto 1fr 15px;
+		align-items: baseline;
+		gap: 10px;
+		p {
+			justify-self: right;
+		}
+	}
+}
